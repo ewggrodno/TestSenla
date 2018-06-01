@@ -19,8 +19,8 @@ public class Solution {
     }
 
     static String[] getAllWord(String text) {
-        String string = text.replace(",", " ");
-        return string.split(" +");
+        String string = text.replace(",", "");
+        return string.split(" ");
     }
 
     static Map<String, Integer> getCountWord(String[] strings) {
